@@ -11,10 +11,10 @@ Pairs with the Host Analyst repo — same incident, different vantage point.
 
     git clone <repo-url> CSTU_CYBERCAMP_2026_WEEK3_NETWORK_ANALYST
     cd CSTU_CYBERCAMP_2026_WEEK3_NETWORK_ANALYST
-    tshark -r pcap/capture.pcap
+    tshark -r pcap/capture.pcap | wc -l
 
-That's the whole capture. Everything you need is in it — your job is to
-work out what matters. See `pcap/README.md` for the tshark reference, and
+About 2,400 packets — a few minutes of a normal office network with
+something hidden in it. You can't read it all; filtering is the job. See `pcap/README.md` for the tshark reference, and
 `worksheets/day3-network.md` for the investigation.
 
 No tshark? Open `pcap/capture.pcap` in Wireshark on your laptop.
